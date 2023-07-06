@@ -1,0 +1,21 @@
+version : '3.8'
+
+services:
+  web:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    container_name: urlshortener
+
+  mongo:
+    image: mongo
+    ports:
+        - '27017:27017'
+    container_name: mongo
+    restart: always
+    environment:
+        - MONGO_INITDB_ROOT_USERNAME=${DB_USER}
+        - MONGO_INITDB_ROOT_PASSWORD=${DB_PASSWORD}
+    
