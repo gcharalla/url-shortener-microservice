@@ -2,4 +2,4 @@
 ***
 ## Screenshot
 ***
-![Captura desde 2023-06-22 09-30-11](https://github.com/gcharalla/urlShortenerMicroservice/assets/58303705/0dfb3bf3-d85e-47de-acd7-abcca81d28fc)
+![screenshot](https://github.com/gcharalla/url-shortener-microservice/assets/58303705/f1238b62-c62c-40a3-ac05-467ad2bfb1b1)
